@@ -2,7 +2,8 @@ name: binder-examples
 channels:
         - conda-forge
 dependencies:
-        - rise
-        - pip
-        - pip:
-          - pytesseract
+        - jupyterlab
+        - pandas
+        - altair
+        - scikit-learn
+        - seaborn
