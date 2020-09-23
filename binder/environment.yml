@@ -1,8 +1,5 @@
-name: binder-examples
+name: binder
 channels:
         - conda-forge
 dependencies:
-        - rise
-        - pip
-        - pip:
-          - pytesseract
+        - jupyterlab
