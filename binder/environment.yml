@@ -1,8 +1,12 @@
-name: binder-examples
+name: vscode
 channels:
         - conda-forge
+        - defaults
 dependencies:
+        - jupyterlab
         - rise
-        - pip
-        - pip:
-          - pytesseract
+        - jupyter-server-proxy
+        - code-server
+        - jupyter-vscode-proxy
+        - pytest
+        - pylint
