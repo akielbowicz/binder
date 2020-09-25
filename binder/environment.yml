@@ -1,8 +1,8 @@
-name: binder-examples
+name: binder-julia
 channels:
         - conda-forge
 dependencies:
+        - code-server
+        - jupyter-server-proxy
+        - jupyter-vscode-proxy
         - rise
-        - pip
-        - pip:
-          - pytesseract
