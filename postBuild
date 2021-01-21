@@ -1,4 +1,5 @@
-#!/bin/bash -l set -ex
+#!/bin/bash -l 
+set -ex
 
 jupyter labextension install @jupyterlab/server-proxy
 jupyter lab build
