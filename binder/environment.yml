@@ -1,8 +1,0 @@
-name: binder-examples
-channels:
-        - conda-forge
-dependencies:
-        - rise
-        - pip
-        - pip:
-          - pytesseract
