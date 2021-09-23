@@ -1,5 +1,5 @@
-fish
-zoxide
-fzf
 curl
-fd-find
+#fd-find
+fish
+#fzf
+#zoxide
