@@ -2,6 +2,7 @@
 set -ex
 
 curl -fsSL https://starship.rs/install.sh -o install_starship.sh
+chmod +x install_starship.sh
 ./install_starship.sh --yes
 
 echo "starship init fish | source" >> ~/.config/fish/config.fish
