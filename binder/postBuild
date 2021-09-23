@@ -1,7 +1,9 @@
 #!/bin/bash -l 
 set -ex
 
-sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+curl -fsSL https://starship.rs/install.sh -o install_starship.sh
+./install_starship.sh --yes
+
 echo "starship init fish | source" >> ~/.config/fish/config.fish
 
 echo "/usr/local/bin/fish" >> /etc/shells
