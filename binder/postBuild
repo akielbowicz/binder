@@ -1,3 +1,5 @@
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 echo "starship init fish | source" >> ~/.config/fish/config.fish
 
+echo "/usr/local/bin/fish" >> /etc/shells
+chsh -s /usr/local/bin/fish
