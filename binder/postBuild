@@ -8,4 +8,5 @@ set -ex
 
 # echo "/usr/local/bin/fish" >> /etc/shells
 # chsh -s /usr/local/bin/fish
-cp ~/binder/terminal_workspace.json $(jupyter --config)/lab/workspaces/
+ls -R $(jupyter --config)
+# cp ~/binder/terminal_workspace.json $(jupyter --config)/lab/workspaces/
