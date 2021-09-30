@@ -6,5 +6,6 @@ set -ex
 #./install_starship.sh --yes
 #echo "starship init fish | source" >> ~/.config/fish/config.fish
 
-echo "/usr/local/bin/fish" >> /etc/shells
-chsh -s /usr/local/bin/fish
+# echo "/usr/local/bin/fish" >> /etc/shells
+# chsh -s /usr/local/bin/fish
+cp terminal_workspace.json $(jupyter --config)/lab/workspaces/
