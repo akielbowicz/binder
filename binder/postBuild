@@ -12,3 +12,4 @@ ls -aR ~/
 # ls -aR $(jupyter --config)
 mkdir -p $(jupyter --config)/lab/workspaces/
 cp ~/binder/terminal_workspace.json $(jupyter --config)/lab/workspaces/default-37a8.jupyterlab-workspace
+cp ~/binder/terminal_workspace.json $(jupyter --config)/lab/workspaces/terminal-4e68.jupyterlab-workspace
